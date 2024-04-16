@@ -1,0 +1,1 @@
+<view class="container"><view wx:for="{{a}}" wx:for-item="items" wx:key="c" class="box1">{{b}}</view></view>

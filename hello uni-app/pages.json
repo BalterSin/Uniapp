@@ -1,0 +1,31 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "二手交易平台"
+      }
+    },
+    {
+      "path": "pages/demo1/demo1",
+      "style": {
+        "navigationBarTitleText": "demo页面",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/demo2/demo2",
+      "style": {
+        "navigationBarTitleText": "demo2",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#178764",
+    "backgroundColor": "#F8F8F8"
+  },
+  "uniIdRouter": {}
+}
