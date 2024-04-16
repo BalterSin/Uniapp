@@ -23,20 +23,34 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: #ccc;
+.footer-nav.data-v-04dc3bbb {
+  display: flex;
+  justify-content: space-around;
+  /* 三个图标平均分布 */
+  position: fixed;
+  bottom: 0;
+  /* 固定在页面底部 */
+  width: 100%;
+  /* 导航栏宽度占满整个屏幕 */
+  background-color: #fff;
+  /* 设置背景色 */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  /* 设置上方的阴影 */
+  height: 50px;
+  /* 设置导航栏高度 */
 }
-.boxHover {
-  background-color: aqua;
-  width: 300px;
+.nav-item.data-v-04dc3bbb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.inner {
-  background-color: green;
-  width: 150px;
-  height: 150px;
+.icon.data-v-04dc3bbb {
+  width: 24px;
+  /* 图标大小 */
+  height: 24px;
 }
-.innerHover {
-  background: greenyellow;
+.text.data-v-04dc3bbb {
+  font-size: 12px;
+  /* 文字大小 */
 }
