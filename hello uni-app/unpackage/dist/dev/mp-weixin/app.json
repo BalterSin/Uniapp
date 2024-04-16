@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/demo1/demo1",
-    "pages/demo2/demo2"
+    "pages/recycle/recycle",
+    "pages/mine/mine"
   ],
   "window": {
     "navigationBarTextStyle": "black",
